@@ -1,10 +1,10 @@
 using Google.Cloud.Functions.Framework;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Logging;
 
 namespace GoogleCloudFunctionsInfo
 {
