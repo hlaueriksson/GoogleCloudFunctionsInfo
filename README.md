@@ -19,14 +19,12 @@ This project was created with [Google.Cloud.Functions.Templates](https://github.
 
 * https://us-central1-solid-antler-215713.cloudfunctions.net/GoogleCloudFunctionsInfo-Assemblies
 
-> 91 assemblies found
-
 ```json
 [
-    "CloudNative.CloudEvents, Version=2.5.1.0, Culture=neutral, PublicKeyToken=eb8e1fd825734e88",
-    "CloudNative.CloudEvents.SystemTextJson, Version=2.5.0.0, Culture=neutral, PublicKeyToken=eb8e1fd825734e88",
-    "Google.Cloud.Functions.Framework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=185c282632e132a0",
-    "Google.Cloud.Functions.Hosting, Version=2.0.0.0, Culture=neutral, PublicKeyToken=185c282632e132a0",
+    "CloudNative.CloudEvents, Version=2.6.0.0, Culture=neutral, PublicKeyToken=eb8e1fd825734e88",
+    "CloudNative.CloudEvents.SystemTextJson, Version=2.6.0.0, Culture=neutral, PublicKeyToken=eb8e1fd825734e88",
+    "Google.Cloud.Functions.Framework, Version=2.1.0.0, Culture=neutral, PublicKeyToken=185c282632e132a0",
+    "Google.Cloud.Functions.Hosting, Version=2.1.0.0, Culture=neutral, PublicKeyToken=185c282632e132a0",
     "Microsoft.AspNetCore, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60",
     "Microsoft.AspNetCore.Connections.Abstractions, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60",
     "Microsoft.AspNetCore.HostFiltering, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60",
@@ -117,7 +115,7 @@ This project was created with [Google.Cloud.Functions.Templates](https://github.
 ]
 ```
 
-## Type
+## Types
 
 > Get information about available `Types` and what `Assembly` they belong to
 
@@ -127,15 +125,11 @@ Query by:
 
 > The fully qualified name of the type, including its namespace but not its assembly
 
-* https://us-central1-solid-antler-215713.cloudfunctions.net/GoogleCloudFunctionsInfo-TypeType?FullName={FullName}
-
-Example: https://us-central1-solid-antler-215713.cloudfunctions.net/GoogleCloudFunctionsInfo-Type?FullName=Google.Cloud.Functions.Hosting.FunctionsStartup
-
-> Google.Cloud.Functions.Hosting.FunctionsStartup was found in 1 assemblies
+* https://us-central1-solid-antler-215713.cloudfunctions.net/GoogleCloudFunctionsInfo-Types?FullName=Google.Cloud.Functions.Hosting.FunctionsStartup
 
 ```json
 [
-    "Google.Cloud.Functions.Hosting, Version=2.0.0.0, Culture=neutral, PublicKeyToken=185c282632e132a0"
+    "Google.Cloud.Functions.Hosting, Version=2.1.0.0, Culture=neutral, PublicKeyToken=185c282632e132a0"
 ]
 ```
 
@@ -145,17 +139,13 @@ Query by:
 
 > The simple name of the type
 
-* https://us-central1-solid-antler-215713.cloudfunctions.net/GoogleCloudFunctionsInfo-Type?Name={Name}
-
-Example: https://us-central1-solid-antler-215713.cloudfunctions.net/GoogleCloudFunctionsInfo-Type?Name=IHttpFunction
-
-> IHttpFunction matched 1 types
+* https://us-central1-solid-antler-215713.cloudfunctions.net/GoogleCloudFunctionsInfo-Types?Name=IHttpFunction
 
 ```json
 [
     {
         "Type": "Google.Cloud.Functions.Framework.IHttpFunction",
-        "Assembly": "Google.Cloud.Functions.Framework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=185c282632e132a0"
+        "Assembly": "Google.Cloud.Functions.Framework, Version=2.1.0.0, Culture=neutral, PublicKeyToken=185c282632e132a0"
     }
 ]
 ```
