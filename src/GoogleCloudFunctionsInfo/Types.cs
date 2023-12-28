@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace GoogleCloudFunctionsInfo;
 
-public class Type : IHttpFunction
+public class Types : IHttpFunction
 {
     private readonly ILogger _logger;
 
-    public Type(ILogger<Type> logger) => _logger = logger;
+    public Types(ILogger<Types> logger) => _logger = logger;
 
     public Task HandleAsync(HttpContext context)
     {
